@@ -13,7 +13,7 @@ new APIError(404, `Document with id '${id}' does not exist.`);
 
 # Docs
 
-## `new APIError(status, message, [{[code], [details]}])`
+## `new APIError(status, [message, [{code?, details?}]])`
 
  param    | type   | description
 ----------|--------|-------------
@@ -24,8 +24,8 @@ new APIError(404, `Document with id '${id}' does not exist.`);
 
 -----
 
-## `CError.status`
+## `APIError.status`
 
-## `CError.message`
+## `APIError.message`
 
-## `CError.code`
+## `APIError.code`

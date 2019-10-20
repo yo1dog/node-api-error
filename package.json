@@ -1,6 +1,6 @@
 {
   "name": "@yo1dog/api-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API Error",
   "main": "lib/APIError.js",
   "types": "lib/APIError.d.ts",
