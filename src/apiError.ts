@@ -1,6 +1,6 @@
 import http from 'http';
 
-export class APIError<T> extends Error {
+export class APIError<T = unknown> extends Error {
   public status!: number;
   public code?: string;
   public details?: T;
