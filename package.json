@@ -1,6 +1,6 @@
 {
   "name": "@yo1dog/api-error",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "API Error",
   "type": "commonjs",
   "main": "dist/apiError.js",
