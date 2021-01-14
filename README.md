@@ -9,7 +9,7 @@ npm install @yo1dog/api-error
 ## Quick Start
 
 ```javascript
-const APIError = require('@yo1dog/api-error');
+const {APIError} = require('@yo1dog/api-error');
 
 new APIError(404, `Document with id '${id}' does not exist.`);
 ```
