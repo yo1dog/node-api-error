@@ -2,6 +2,10 @@
 
 API Error
 
+```
+npm install @yo1dog/api-error
+```
+
 ## Quick Start
 
 ```javascript
